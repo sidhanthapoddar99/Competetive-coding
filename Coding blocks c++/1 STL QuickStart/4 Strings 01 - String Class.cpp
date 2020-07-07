@@ -87,5 +87,5 @@ int main()
     {
         cout<<(*it)<<",";
     }
-    
+    //auto is used to automatically asign the data type 
 }
