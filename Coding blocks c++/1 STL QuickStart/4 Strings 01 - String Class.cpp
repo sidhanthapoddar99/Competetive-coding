@@ -3,6 +3,12 @@ sting class - no need to create a character array
 wraps a character array 
 */
 
+//___________________IMP_______________
+
+// getw(cin,s) ----> get word
+// getline(cin,s) ----> get line
+
+
 #include<iostream>
 #include<string>
 
@@ -37,6 +43,7 @@ int main()
     s1.compare(s2) //lexographical comparision
     s1<s2 // overloaded operators
 
+    string sub = s.substr(pos + 1);
     ______________indexing______________
     s[0]
 
