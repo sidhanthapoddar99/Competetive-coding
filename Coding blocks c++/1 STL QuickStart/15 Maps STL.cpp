@@ -19,7 +19,12 @@ int main()
     gquiz1.insert(pair<int, int>(5, 50)); 
     gquiz1.insert(pair<int, int>(6, 50)); 
     gquiz1.insert(pair<int, int>(7, 10)); 
-  
+     
+     // can also insert like 
+     // m[key]=value;
+     // check if key exists
+     // m.find(key)!=m.end();
+
     // printing map gquiz1 
     map<int, int>::iterator itr; 
     cout << "\nThe map gquiz1 is : \n"; 

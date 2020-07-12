@@ -40,10 +40,17 @@ int main()
 
     s.length()
 
+    s=to_string(int)
+    #include <boost/lexical_cast.hpp>
+    int i_value = boost::lexical_cast<int>(str); 
+
+
+
     s1.compare(s2) //lexographical comparision
     s1<s2 // overloaded operators
 
     string sub = s.substr(pos + 1);
+
     ______________indexing______________
     s[0]
 
