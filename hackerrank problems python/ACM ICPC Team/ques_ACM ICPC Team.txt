@@ -51,7 +51,6 @@ Sample Output
 Explanation
 
 Calculating topics known for all permutations of 2 attendees we get:
-123463242
  
  
  
