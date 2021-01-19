@@ -16,7 +16,7 @@ public:
                 tot+=u;
                 min=i;
                 u=0;
-            }
+            }[]
             else
             {
                 u+=height[min]-height[i];

@@ -68,7 +68,10 @@ using namespace std;
 
 int main()
 {
+    
     cout<<longestPalindrome("babad")<<endl<<"___________________"<<endl;
     cout<<longestPalindrome("cbbd")<<endl<<"___________________"<<endl;
+    int n;
+    cin>>n;
     return 0;
 }
